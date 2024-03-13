@@ -1,0 +1,32 @@
+Taski
+    Disco będzie dopiero wieczorem. W międzyczasie spis tasków dotyczących wczorajszego tematu.
+Każdy wybiera sobie co chce i na co ma ochotę, proszę po prostu spędzić uczciwie nieco czasu nad którymkolwiek. Jeśli ktoś ma ochotę podzielić swoją uwagę na dwa taski (lub więcej) i zrobić nieco w każdym to też jak najbardziej wskazane.
+
+Task1:
+
+	challenge.ipynb:
+	
+		tutaj jest pokazany basicowy outline modelu generatywnego gdzie:
+		
+			pierwsza faza: budowanie przestrzeni ukrytej SOMem
+			druga faza: uczenie funkcji odwrotnej, która ostatecznie generuje obrazki
+			dyskryminatywny assessment jakości generacji za pomocą kNN (proszę zwrócić uwagę na nawiązanie do GANów; dokładnie omówię to w przyszłym tygodniu)
+		
+		
+		taskiem tutaj jest wyżyłowanie tego outline'u, żeby zrobić jak najlepszy model generatywny:
+		
+			im mniejsze accuracy kNN dyskryminatora tym lepiej
+			obecnie uzywany jest 2-wymiarowy SOM; ale można spróbować użyc dowolnej self organizing mapy i z dowolną ilością wymiarówprzestrzeni ukrytej; jedną z ciekawszych (i taką, o której będziemy rozmawiać za niedługo) jest UMAP:
+			
+				oficjalna strona pakietu: https://umap-learn.readthedocs.io/en/latest/
+				calkiem mile wprowadzenie w temat: https://pair-code.github.io/understanding-umap/
+			
+			
+			obecnie SOM uzywa tylko 400 sampli, a osiąga 40% accuracy. co jeśli sampli będzie więcej?
+			proszę wypróbować zamiast XGBRegressora innych wielowymiarowych regresorow z R^2 w R^784:
+			
+				niektore regresory pozwalaja na to z defaultu
+				ale jesli tylko uzyje sie https://scikit-learn.org/stable/modules/generated/sklearn.multioutput.MultiOutputRegressor.html to kazdy regresor jest wielowymiarowym regresorem
+			
+			
+		
