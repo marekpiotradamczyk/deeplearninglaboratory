@@ -8,6 +8,7 @@ Program:
 - gradient boosting dla regresji i minimalizacji MSE
 - geometryczne tSNE
 - locality sensitive hashing i k-nearest neighbors
+- PCA, ale inaczej niż zawsze
 
 ## probabilistyczny deep learning
 - entropia, cross-entropia, dywergencja Kullbacka-Leiblera
