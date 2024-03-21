@@ -2,11 +2,11 @@
 
 Program:
 ## geometryczny deep learning
-- k-means
-- mapy kohonena
+- k-means i mapy kohonena dla zanurzeń topologicznych
+- mapy kohonena dla gęstości
 - drzewa decyzyjne dla regresji i minimalizacji MSE
 - gradient boosting dla regresji i minimalizacji MSE
-- geometryczne tSNE
+- geometryczne domowej roboty t-SNE
 - locality sensitive hashing i k-nearest neighbors
 - PCA, ale inaczej niż zawsze
 
@@ -17,6 +17,7 @@ Program:
 - wariacyjny autoencoder
 - GAN
 - normalizing flows
+- t-SNE
 
 ## modele językowe
 - RNN i LSTMy
