@@ -9,6 +9,8 @@ Program:
 - geometryczne domowej roboty t-SNE
 - locality sensitive hashing i k-nearest neighbors
 - PCA, ale inaczej niż zawsze
+- domowej roboty konwolucja bez sieci neuronowej
+- domowej roboty konwolucja z siecią neuronową
 
 ## probabilistyczny deep learning
 - entropia, cross-entropia, dywergencja Kullbacka-Leiblera
